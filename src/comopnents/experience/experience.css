@@ -129,10 +129,10 @@ align-items: center;
     min-height: calc(100vh - 100px);
   }
   .container h3, .title{
-    font-size: 1rem;
+    font-size: 0.85rem;
   }
   .ul-li{
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 }
 @media screen and (max-width: 490px){
@@ -151,7 +151,7 @@ align-items: center;
     left: 7px;
   }
   .container h3, .title{
-    font-size: 0.95rem;
+    font-size: 0.85rem;
   }
   .container, .container2{
     padding-left: 15px;

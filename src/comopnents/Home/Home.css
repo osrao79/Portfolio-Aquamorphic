@@ -128,6 +128,9 @@
 
 
 @media screen and (max-width:990px) {
+  .para-1{
+    font-size: 0.9rem;
+  }
   .home{
     flex-direction: column;
     width: 90%;
@@ -141,6 +144,11 @@
   }
 }
 
+@media screen and (max-width:550px) {
+  .heading-2 {
+  font-size: 2.7rem;
+  }
+}
 @media screen and (max-width:990px) {
   .heading-2{font-size: 3rem};
 }

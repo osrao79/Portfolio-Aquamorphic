@@ -83,7 +83,7 @@ line-height: 1.6rem;
 
 @media screen and (max-width: 600px){
   .paragraph{
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
     .tech-stack img{
       width: 30px !important;
