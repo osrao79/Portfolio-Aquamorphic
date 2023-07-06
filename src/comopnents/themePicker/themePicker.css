@@ -1,0 +1,37 @@
+.theme-picker{
+  z-index: 5;
+  position: fixed;
+  bottom: 4vh;
+  right: 4vh;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.color-block{
+  width: 30px;
+  height: 30px;
+  /* outline: 2px solid var(--color-font);   */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: var(--shadowColor);
+  padding: 5px;
+  border-radius: 50%;
+}
+.color-block:hover{
+  cursor: pointer;
+  box-shadow: var(--shadowInset);
+}
+.color-block .inner{
+  width: 89%;
+  height: 89%;
+  background: var(--color-primary);
+  border-radius: 50%;
+}
+.pelette{
+  bottom: 4px;
+  transform: rotate(180deg);
+  box-shadow: var(--shadowColor);
+  gap: 5px;
+}

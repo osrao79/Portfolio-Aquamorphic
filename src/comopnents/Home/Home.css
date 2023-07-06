@@ -1,0 +1,146 @@
+.home {
+  width: 80%;
+  height: calc(100vh - 70px);
+  margin-top: 70px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  box-sizing: border-box;
+  gap: 30px;
+  z-index: 2;
+
+}
+
+.section-left {
+  box-shadow: var(--shadowColor);
+  border-radius: 0 0 10px 10px;
+  flex: 3;
+  padding: 4rem 20px;
+  border-radius: 4px;
+  /* border: #45b3e0 solid 1px; */
+  /* min-width: 65ch; */
+  
+}
+
+.section-right {
+  flex: 2;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.heading-1 {
+  margin: 0;
+  font-size: 1.2rem;
+  text-align: start;
+  font-weight: 400;
+  padding-left: 4px;
+}
+
+.heading-2 {
+  margin: -4px 0px;
+  font-size: 5.5rem;
+  font-weight: 900;
+}
+
+.para-1 {
+  font-size: 1rem;
+}
+
+.heading-1,
+.heading-2,
+.para-1 {
+  text-align: start;
+  color: var(--color-font);
+}
+
+.heading-2 {
+  color: var(--color-primary);
+  /* -webkit-text-stroke: 1px var(--color-font); */
+}
+
+.profile-img {
+  width: 12rem;
+  height: 12rem;
+  /* border: var(--color-font) solid 2px; */
+  padding: 5px;
+  border-radius: 50%; 
+  box-shadow: var(--shadowColor)
+}
+
+.resume {
+  width: 120px;
+  font-size: 1rem;
+  height: 40px;
+  margin-right: 45px;
+  border-radius:4px;
+  margin-top: 4px;
+  animation: shake-animation 6.72s ease infinite;
+  display: grid;
+  place-items: center;
+  color: var(--color-font);
+  text-decoration: none;
+  box-shadow: var(--shadowColor)
+}
+.resume:hover {
+  border-radius: 4px;
+  box-shadow: var(--shadowInset);
+  transform: scale(1.1);
+}
+
+@keyframes shake-animation {
+  0% {
+    transform: translate(0, 0)
+  }
+
+  1.78571% {
+    transform: translate(5px, 0)
+  }
+
+  3.57143% {
+    transform: translate(0, 0)
+  }
+
+  5.35714% {
+    transform: translate(5px, 0)
+  }
+
+  7.14286% {
+    transform: translate(0, 0)
+  }
+
+  8.92857% {
+    transform: translate(5px, 0)
+  }
+
+  10.71429% {
+    transform: translate(0, 0)
+  }
+
+  100% {
+    transform: translate(0, 0)
+  }
+}
+
+
+@media screen and (max-width:990px) {
+  .home{
+    flex-direction: column;
+    width: 90%;
+    padding-top: 40px;
+  }
+  .section-left{
+    padding: 20px;
+  }
+  .heading-2{
+    font-size: 3.5rem;
+  }
+}
+
+@media screen and (max-width:990px) {
+  .heading-2{font-size: 3rem};
+}
