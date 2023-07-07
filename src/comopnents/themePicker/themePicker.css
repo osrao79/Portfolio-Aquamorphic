@@ -1,7 +1,7 @@
 .theme-picker{
   z-index: 5;
   position: fixed;
-  bottom: 4vh;
+  top: 90vh;
   right: 4vh;
   display: flex;
   flex-direction: column-reverse;
