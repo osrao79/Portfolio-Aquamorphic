@@ -35,3 +35,9 @@
   box-shadow: var(--shadowColor);
   gap: 5px;
 }
+
+@media screen and (max-width:550px) {
+  .theme-picker{
+    top: 88vh;
+  }
+}

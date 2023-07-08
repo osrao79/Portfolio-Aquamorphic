@@ -123,6 +123,10 @@
 }
 }
 @media screen and (max-width: 550px){
+  .dark-mode-container{
+    top: 80vh;
+  }
+  
   .bg-scaler-left{
     width: 10rem;
     height: 10rem;
